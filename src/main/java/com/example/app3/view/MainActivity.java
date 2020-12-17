@@ -1,4 +1,4 @@
-package com.example.app3;
+package com.example.app3.view;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.app3.MainMadapter;
+import com.example.app3.R;
 import com.example.app3.bean.ProBean;
 
 import java.util.ArrayList;
