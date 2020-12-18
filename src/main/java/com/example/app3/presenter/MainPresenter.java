@@ -22,7 +22,7 @@ public class MainPresenter extends BasePresenter<MainContract.MainView> implemen
         mainModel.getMain(URLContstant.url, new INetWorkCallBack<ProBean>() {
             @Override
             public void onInit(ProBean a) {
-                List<ProBean.DataBean.DatasBean> results = a.getData().getDatas();
+                //List<ProBean.DataBean.DatasBean> results = a.getData().getDatas();
                 iView.onInit(a);
             }
 
